@@ -1,8 +1,6 @@
-Yes — you're right. For an internship GitHub repo, the README should be **medium-sized, clean, and cover the complete Week 04 assignment**, not become a 29-section document.
 
-Here is the **final copy-ready README** I recommend.
 
-````markdown
+
 # FlyRank Backend API — Week 04
 
 A secure REST API built with **FastAPI**, **Supabase Auth**, and **Supabase PostgreSQL**.
@@ -49,14 +47,13 @@ FlyRank-Backend-Week04/
 ├── requirements.txt
 │
 ├── .env                 # Local secrets (not committed)
-├── .env.example         # Environment variable template
 ├── .gitignore
 ├── README.md
 ├── ai-version.md        # AI vs Me comparison
 │
 └── screenshots/
-    └── swagger-auth.png
-````
+    └── images
+
 
 ---
 
@@ -252,7 +249,7 @@ http://127.0.0.1:8000/docs
 
 Protected endpoints can be tested using the **Authorize** button and the access token.
 
-![Swagger Authentication](screenshots/swagger-auth.png)
+
 
 ---
 
@@ -334,7 +331,4 @@ AI can accelerate backend development, but authentication and security code must
 
 **Built with:** Python · FastAPI · Supabase Auth · Supabase PostgreSQL
 
-```
 
-This is the version I'd use for your GitHub repository: **detailed enough to show your understanding, but not overloaded with unnecessary sections.**
-```
